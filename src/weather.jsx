@@ -16,7 +16,6 @@ const Weather = () => {
     const valueSearch = useRef()
     const buttonSearch = useRef()
 
-    // const url = `https://api.openweathermap.org/data/2.5/forecast?&q=${location}&units=metric&lang=fa&mode=json&appid=3a4259e8146f55d98ab6afd892fd4821`
     const url = `https://api.openweathermap.org/data/2.5/forecast?&units=metric&q=${location}&appid=3a4259e8146f55d98ab6afd892fd4821`
     async function response() {
 
